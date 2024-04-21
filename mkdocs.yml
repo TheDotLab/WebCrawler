@@ -1,0 +1,87 @@
+# Project information
+site_name: WebCrawler
+site_url: https://webcrawler.pages.dev
+site_author: Vinicius
+site_description: >-
+  Scripts para o WebCrawler Hacker Wars
+
+# Repository
+# repo_name: HackWarsScripts/WebCrawler
+# repo_url: https://github.com/HackWarsScripts/WebCrawler
+
+# Copyright
+copyright: Copyright &copy; 2024 Brazil Team
+
+# Configuration
+theme:
+  language: pt-BR
+  name: material
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.sections
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: Deep Orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: Deep Orange
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+# Page tree
+nav:
+  - Inicio: index.md
+  - Regras Personalizadas:
+    - clean_logs_disabled(): Regras/clean_logs_disabled.md
+    - clean_logs_just_after_installing(): Regras/clean_logs_just_after_installing.md
+    - leave_signature(): Regras/leave_signature.md
+    - MB(), GB(), MBits(): Regras/MB_GB_MBits.md
+    - print(): Regras/print.md
+    - seconds_limit(): Regras/seconds_limit.md
+    - softwares(): Regras/softwares.md
+    - stop(): Regras/stop.md
+    - upload(): Regras/upload.md
+  - Exemplos:
+    - Uploads: Exemplos/uploads.md
+    - Sequência Jregg: Exemplos/Jregg.md
