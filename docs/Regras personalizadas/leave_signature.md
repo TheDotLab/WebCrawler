@@ -1,0 +1,3 @@
+
+
+Deixa uma assinatura no log.

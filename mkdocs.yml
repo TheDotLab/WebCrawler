@@ -17,6 +17,7 @@ theme:
   language: pt-BR
   name: material
   features:
+  
     - announce.dismiss
     - content.action.edit
     - content.action.view
@@ -26,9 +27,11 @@ theme:
     # - navigation.expand
     - navigation.indexes
     - navigation.sections
-    # - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
+    - navigation.footer
     - search.highlight
     - search.share
     - search.suggest
@@ -72,16 +75,25 @@ markdown_extensions:
 # Page tree
 nav:
   - Inicio: index.md
-  - Regras Personalizadas:
-    - clean_logs_disabled(): Regras/clean_logs_disabled.md
-    - clean_logs_just_after_installing(): Regras/clean_logs_just_after_installing.md
-    - leave_signature(): Regras/leave_signature.md
-    - MB(), GB(), MBits(): Regras/MB_GB_MBits.md
-    - print(): Regras/print.md
-    - seconds_limit(): Regras/seconds_limit.md
-    - softwares(): Regras/softwares.md
-    - stop(): Regras/stop.md
-    - upload(): Regras/upload.md
-  - Exemplos:
-    - Uploads: Exemplos/uploads.md
-    - Sequência Jregg: Exemplos/Jregg.md
+  - Sobre:
+    - Logs: Sobre/logs.md
+    - Relatorios: Sobre/relatorios.md
+    - Intercepta Transações Bancarias: Sobre/intercepta_transacoes_bancarias.md
+    - Missões: Sobre/missoes.md
+    - Resolver Enigmas: Sobre/resolver_enigmas.md
+  - Modelos Scripts:
+      - Padrão: Exemplos/Padrao.md
+      - Para Internet: Exemplos/Internet.md
+      - Para Hd livre: Exemplos/HD_Livre.md
+      - Sequência Jregg: Exemplos/Jregg.md
+  - Regras personalizadas do Webcrawler:
+    - clean_logs_disabled(): Regras personalizadas/clean_logs_disabled.md
+    - clean_logs_just_after_installing(): Regras personalizadas/clean_logs_just_after_installing.md
+    - leave_signature(): Regras personalizadas/leave_signature.md
+    - MB(), GB(), MBits(): Regras personalizadas/MB_GB_MBits.md
+    - print(): Regras personalizadas/print.md
+    - seconds_limit(): Regras personalizadas/seconds_limit.md
+    - softwares(): Regras personalizadas/softwares.md
+    - stop(): Regras personalizadas/stop.md
+    - upload(): Regras personalizadas/upload.md
+  

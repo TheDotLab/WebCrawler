@@ -1,3 +1,5 @@
+Esse era um modelo que o Jregg usava.
+
 ``` js title="jregg.js"
 //Este script requer que você tenha pelo menos um dos seguintes vírus (desinstalados) para funcionar corretamente: spam, warez, vminer e vddos. É desejável um hdr (hidder) também.
 //Se o destino tiver menos de 10 MB

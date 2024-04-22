@@ -1,0 +1,2 @@
+
+Desativa a limpeza de logs.
