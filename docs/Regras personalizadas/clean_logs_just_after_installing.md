@@ -1,0 +1,3 @@
+
+
+Diz ao bot para limpar os logs não apenas após o upload. Mas pouco antes de instalar.
